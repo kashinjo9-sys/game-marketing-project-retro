@@ -1,2 +1,43 @@
-# game-marketing-project-retro
-A personal workflow skill for reviewing game overseas marketing projects through adaptive interviews and purpose-specific outputs.
+# 游戏海外营销项目复盘 Skill
+
+一个面向个人使用的游戏海外营销项目复盘 Skill。
+
+它不会一开始让你填写固定模板，而是先接收自由叙述，再通过动态追问帮助还原项目、挖掘执行细节、澄清职责边界、识别归因风险，并在事实充分后形成项目母版。未来可按具体需求生成阶段沟通、转正答辩、述职、晋升、简历、面试 STAR、向上汇报、项目交接或团队 SOP 等材料。
+
+## 核心特点
+
+- 忠实于项目，高于包装效果
+- 原生叙述优先，不用固定能力模型限制回忆
+- 动态追问执行细节、判断、风险、错误、数据和反馈
+- 直接指出证据不足、逻辑跳跃、夸大归因或过度自我贬低
+- 项目母版与用途输出分离
+- 未来出现新用途时，优先调用旧复盘，只补问缺失信息
+- 默认以用户提供的项目数据为准，不用网络口径覆盖内部数据
+- 未经明确同意，不创建、更新或覆盖个人复盘文件
+
+## 文件结构
+
+- `SKILL.md`：核心工作流程与边界
+- `references/interview-guide.md`：动态访谈与追问线索
+- `references/output-guide.md`：用途输出及跨项目成长分析
+- `agents/openai.yaml`：Codex界面配置
+
+## 使用
+
+安装后可以自然地说：
+
+- “我想复盘一个项目。”
+- “继续上次的项目复盘。”
+- “根据这个项目母版帮我准备转正答辩。”
+- “比较这几个项目，看看我这一年的成长。”
+- “把这个项目整理成面试STAR案例。”
+
+在Codex中也可以显式调用：
+
+`$game-marketing-project-retro`
+
+如果其他AI工具支持从GitHub仓库安装Skill，可直接提供本仓库地址；如果不支持，可将 `SKILL.md` 及 `references/` 中的文件作为工作流说明上传或粘贴。
+
+## 隐私
+
+本仓库只包含复盘方法，不包含任何个人项目、公司数据、同事信息或内部资料。真实项目文档应保存在个人本地空间。
