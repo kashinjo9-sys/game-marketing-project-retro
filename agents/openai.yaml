@@ -1,0 +1,5 @@
+interface:
+  display_name: "游戏海外营销项目复盘"
+  short_description: "动态访谈沉淀真实项目，并按需生成职业材料"
+  default_prompt: "Use $game-marketing-project-retro to help me review a game overseas marketing project through adaptive questions."
+
